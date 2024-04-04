@@ -1,0 +1,218 @@
+body{
+  
+  color: white !important;
+}
+::-webkit-scrollbar{
+  width: 5px;
+}
+::-webkit-scrollbar-thumb{
+  background: rgb(189, 187, 187);
+  border-radius: 8px;
+}
+::-webkit-scrollbar-track{
+  background: rgb(231, 229, 229);
+}
+h3, h4 {
+  margin: 10px 0 30px 0;     
+  font-size: 20px;
+  color: #111;
+}
+#playvid:hover{
+  font-size: 50px !important;
+  color: white !important;
+}
+
+#addvid:hover{
+  font-size: 25px !important;
+  color: white !important;
+}
+.header{
+  padding: 10px 16px;
+  color: #f1f1f1;
+  transition: .3s all ease;
+  position: absolute;
+  top:0;
+  z-index: 999;
+}
+
+.content{
+  padding: 16px;
+}
+#dash a div:hover{
+  color: white;
+}
+
+.sticky{
+  position: fixed !important;
+  top: 0;
+  z-index: 999;
+  background: #fff !important;
+  box-shadow: #00000017 1px 1px 10px;
+  width: 100%;
+  transition: .3s all ease;
+}
+.sticky + .content{
+  padding-top: 102px;
+}
+.nav-tabs li a {
+  color: #777;
+} 
+.navbar {
+  position: absolute;
+  margin-bottom: 0 !important;
+  background-color: #23232400;
+  border: 0 !important;
+  font-size: 11px !important;
+  letter-spacing: 4px;
+  border-radius: 0 !important;
+}
+.navbar li a, .navbar{ 
+  color: #9c9c9c !important;
+}
+.card-in{
+  background-color: #111;
+}
+.hovered{
+  background-color: #111;
+  position: absolute;
+}
+.navbar-brand a{
+  text-decoration: none;
+  color: #9c9c9c;
+  font-size: 1.8em;
+}
+/*Mobile Small*/
+@media (max-width:320px){
+  .navbar-brand a{
+    font-size: 1.3em;
+  }
+}
+/*Mobile large*/
+@media (max-width:425px){
+  #course-card{
+    display: none;
+  }
+  #instructor-card{
+    display: none;
+  }
+  #video-player{
+    padding: 0;
+  }
+
+  .catnav{
+    display: none;
+  }
+}
+.navbar-nav li a:hover {
+  color: rgb(1, 169, 240) !important;
+}
+.navbar-nav li a{
+  color: #1e1846;
+}
+.navbar-nav li.active a {
+  color: #fff !important;
+  background-color: #29292c !important;
+}
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+.open .dropdown-toggle {
+  color: #fff;
+  background-color: #555 !important;
+}
+.dropdown-menu{
+  background-color: #3a3a3a;
+}
+.dropdown-menu li a {
+  color: #fff !important;
+}
+.dropdown-menu li a:hover {
+  background-color: rgb(141, 139, 139) !important;
+}
+footer {
+  background-color: #2d2d30;
+  color: #f5f5f5;
+  padding: 32px;
+}
+footer a {
+  color: #f5f5f5;
+}
+footer a:hover {
+  color: #777;
+  text-decoration: none;
+}  
+.form-control {
+  border-radius: 0;
+}
+textarea {
+  resize: none;
+}
+p{
+  font-size: 1.5em;
+  color: rgba(255,255,255,0.5);
+}
+h1{
+  font-size: 3em;
+  font-weight: 700;
+}
+@media(max-width:425px){
+  .navbar-collapse{
+    background: rgb(56, 56, 56);
+  }
+  
+  .row{
+    min-height: 0;
+  }
+}
+a:visited{
+  text-decoration: none;
+}
+.cards{
+  transition-duration: 0.5s;
+}
+.cards:hover{
+  box-shadow:2px 2px 10px gray;
+}
+
+.row.jumbo{
+  display: flex;
+  flex-wrap: wrap;
+  padding:15% 0 20% 0;
+}
+.jumbo{
+  align-items: center !important;
+}
+.input{
+  margin: 10px 0;
+}
+ul#board{
+  list-style: none;
+  font-size: 20px;
+}
+
+[type="file"]{
+  height: 0;
+  overflow: hidden;
+  width: 0;
+}
+
+[type="file"] + label{
+  background: #03a9f0;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  padding: 5px 10px;
+  right: 30px;
+  top: -50px;
+  position: absolute;
+  transition: all 0.2s;
+  vertical-align: middle;
+}
+
+[type="file"] + label:hover{
+  background:white;
+  color: #03a9f0;
+  border: #03a9f0 1px solid;
+}
